@@ -1,0 +1,7 @@
+spring:
+  application.name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_db
+    username: root
+    password: root
+  jpa.hibernate.ddl-auto: update
