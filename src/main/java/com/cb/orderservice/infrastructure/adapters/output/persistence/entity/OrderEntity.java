@@ -1,7 +1,8 @@
 package com.cb.orderservice.infrastructure.adapters.output.persistence.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 import java.util.List;
 
