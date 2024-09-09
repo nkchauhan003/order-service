@@ -16,7 +16,9 @@ public class InventoryRestAdapter implements InventoryOutputPort {
 
     @Override
     public boolean checkInventory(Long productId, int quantity) {
-        String url = "http://inventory-service/api/inventory/check?productId=" + productId + "&quantity=" + quantity;
-        return restTemplate.getForObject(url, Boolean.class);
+       /* String url = "http://inventory-service/api/inventory/check?productId=" + productId + "&quantity=" + quantity;
+        var available = restTemplate.getForObject(url, Boolean.class);*/
+        var available = true; // Dummy value
+        return available;
     }
 }
